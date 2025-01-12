@@ -116,11 +116,21 @@
         echo constant("Car").("</br>");
 
         $model="constant";
-        echo $model("Car").("</br>");
+        echo $model("Car").("</br>").("</br>");
         
 
-        ## Topic : 
-     ?>
+        ## Topic : Echo and Print use
 
+        $j = "I love Bangladesh";
+        print $j.("</br>").("</br>");
+
+        $k = print $j;
+
+        echo $k.("</br>").("</br>");
+        echo $k.("</br>").("</br>");
+
+
+    ?>
+        
 </body>
 </html>
