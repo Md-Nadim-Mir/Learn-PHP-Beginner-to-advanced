@@ -12,6 +12,9 @@
 
      <?php 
 
+
+        # PHP variable and Syntax declare
+
         echo 'PHP variable and Syntax ';
         echo "<br>";
         echo nl2br("PHP variable and Syntax2 \n PHP variable and Syntax3 \n  PHP variable and Syntax4");
@@ -76,6 +79,32 @@
 
         // error show for no dynamic  variable are exist '$adnan'
         echo $$nickname; 
+
+
+
+        # comment needed or use :
+
+        echo ('</br>');
+
+        $a= 5 ;
+        $b=17;
+        $b=19;
+
+        $c=20;
+
+        echo $a+$b; 
+
+        echo ('</br>');
+        echo $a+$b+$c;
+
+        /*
+           Multi line
+           comment
+        */
+
+        echo ('</br>');
+        echo /*$a+*/$b+$c;  // multi line comment
+
      ?>
 
 </body>
