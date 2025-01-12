@@ -13,7 +13,7 @@
      <?php 
 
 
-        # PHP variable and Syntax declare
+        ## Topic : PHP variable and Syntax declare
 
         echo 'PHP variable and Syntax ';
         echo "<br>";
@@ -38,7 +38,7 @@
 
 
 
-        // Dynamic variable create
+        ## Topic : Dynamic variable create
 
 
         echo "</br>";
@@ -82,7 +82,7 @@
 
 
 
-        # comment needed or use :
+        ## Topic : comment needed or use
 
         echo ('</br>');
 
@@ -104,6 +104,10 @@
 
         echo ('</br>');
         echo /*$a+*/$b+$c;  // multi line comment
+
+
+
+        ## Topic : PHP  Constant
 
      ?>
 
