@@ -103,12 +103,23 @@
         */
 
         echo ('</br>');
-        echo /*$a+*/$b+$c;  // multi line comment
+        echo /*$a+*/$b+$c.("</br>").("</br>").("</br>");  // multi line comment
 
 
 
-        ## Topic : PHP  Constant
+        ## Topic : PHP  Constant variable use 
 
+        define("Car","BMW");
+        echo Car.("</br>");  // constant name call
+
+
+        echo constant("Car").("</br>");
+
+        $model="constant";
+        echo $model("Car").("</br>");
+        
+
+        ## Topic : 
      ?>
 
 </body>
