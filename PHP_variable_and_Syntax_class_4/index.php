@@ -62,8 +62,20 @@
 
         // single quoute . use 
         echo 'Name is '.$name.' , Age  '.$age;
+
+
+        // double dollar work 
+
+        echo ('</br>');
+        echo ('</br>');
+
+        $nickname = "adnan";
+        $name ="nickname";
        
-     
+        echo $$name;
+
+        // error show for no dynamic  variable are exist '$adnan'
+        echo $$nickname; 
      ?>
 
 </body>
