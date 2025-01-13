@@ -324,4 +324,39 @@
 
       printf($value %=2); // value =1
       echo("<br>");   
+
+
+# Topic : Increment and Decrement operator (postfix and prefix)
+
+         // postfix
+
+      $j=9;
+
+      printf($j++); // j=9 postfix use  
+      echo("<br>");
+      printf($j);   // j=10
+      echo("<br>");
+
+      $k=13;
+  
+      printf($k--); // k=13 postfix use  
+      echo("<br>");
+      printf($k);   // k=12
+      echo("<br>");
+
+      // prefix
+
+      $l=9;
+
+      printf(--$l); // l=8 prefix use  
+      echo("<br>");
+      printf($l);   // l=8
+      echo("<br>");
+
+      $m=13;
+  
+      printf(++$m); // m=14 prefix use  
+      echo("<br>");
+      printf($m);   // k=14
+      echo("<br>");
       
