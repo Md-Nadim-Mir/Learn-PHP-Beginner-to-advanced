@@ -142,7 +142,7 @@
 
 
 
-## Topic : PHP printf use 1
+# Topic : PHP printf use part 1
 
        $first_name='nadim';
        $last_name='mir';
