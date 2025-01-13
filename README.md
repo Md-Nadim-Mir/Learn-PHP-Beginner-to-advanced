@@ -62,3 +62,80 @@
 
         // error show for no dynamic  variable are exist '$adnan'
         echo $$nickname; 
+
+
+
+ ## Topic : comment needed or use
+
+        echo ('<br>');
+
+        $a= 5 ;
+        $b=17;
+        $b=19;
+
+        $c=20;
+
+        echo $a+$b; 
+
+        echo ('<br>');
+        echo $a+$b+$c;
+
+        /*
+           Multi line
+           comment
+        */
+
+        echo ('<br>');
+        echo /*$a+*/$b+$c.("<br>").("<br>").("<br>");  // multi line comment
+
+
+
+ ## Topic : PHP  Constant variable use 
+
+        define("Car","BMW");
+        echo Car.("<br>");  // constant name call
+
+
+        echo constant("Car").("<br>");
+
+        $model="constant";
+        echo $model("Car").("<br>").("<br>");
+        
+
+        ## Topic : Echo and Print use
+
+        $j = "I love Bangladesh";
+        print $j.("<br>").("<br>");
+
+        $k = print $j;
+
+        echo $k.("<br>").("<br>");
+        echo $k.("<br>").("<br>");
+
+
+## Topic : PHP data types 
+ 
+        $biscuit = 2 ; // int type variable
+        $cost = 3.4 ; // float type variable
+        $chocolate = 'dary milk' ; // string type variable
+        $status = true ;  // boolean type variable true = 1 , false = ''
+        $data = null;
+
+        echo $biscuit."<br>" , $cost."<br>" , $chocolate."<br>" , $status."<br>" , $data."<br>" ;
+
+        $status = false ; // '' value
+        $data = "info";
+
+        echo "hello" , $status.("<br>") , $data.("<br>");
+
+
+# Topic : Var_dump use for variable type checking 
+
+        $teacher ='Nazmul';
+        $roll = 5;
+        $amount= 34.5;
+        $condition =false;
+        $start= '';
+
+
+       var_dump($teacher,$roll,$amount,$condition,$start).("<br>");
