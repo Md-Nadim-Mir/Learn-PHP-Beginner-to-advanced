@@ -304,4 +304,24 @@
        // **
        printf('power : %d',$digit1**$digit2);
        echo("<br>");
+
+
+ # Topic : Assignment operator [+=,-=,*=,/=,%=]
+
+      $value =15;
+
+      printf($value +=5); // value =20
+      echo("<br>");    
+
+      printf($value -=5);  // value =15
+      echo("<br>");  
+
+      printf($value *=5);  // value =75
+      echo("<br>"); 
+        
+      printf($value /=5);  // value =15
+      echo("<br>");  
+
+      printf($value %=2); // value =1
+      echo("<br>");   
       
