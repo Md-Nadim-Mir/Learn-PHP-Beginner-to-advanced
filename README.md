@@ -142,7 +142,7 @@
 
 
 
-## Topic : PHP printf use 
+## Topic : PHP printf use 1
 
        $first_name='nadim';
        $last_name='mir';
@@ -176,3 +176,101 @@
                       </div>";
 
        printf($html_block2,(ucwords($first_name)),(ucwords($last_name))).("<br>");
+
+
+
+ ## PHP printf use part 2 :
+
+         // integer use %d
+
+       $amount =300;
+       printf('%d',$amount); 
+
+       echo("<br>");
+
+
+         // float use %f
+
+       $parcentage =4.5;
+
+       printf('%f',$parcentage);  
+       echo("<br>");
+
+       // float use %.3f for 3 decimal digit show after point
+       printf('%.3f',$parcentage);  
+       echo("<br>");
+
+      //  string use %s 
+
+      $str = "Abdur Rahim";
+      printf('%s',$str);
+      echo("<br>");
+
+         // extra space added 
+      printf('[%15s]',$str); // right align
+      echo("<br>");
+
+      printf('[%-15s]',$str); // left align
+      echo("<br>");
+
+      printf('[%015s]',$str); // space fill '0' value
+      echo("<br>");
+
+      printf('[%0-15s]',$str); // space fill '0' value
+      echo("<br>");
+
+      printf("[%'a15s]",$str); // space fill 'a' value
+      echo("<br>");
+
+      printf("[%'k-15s]",$str); // space fill 'mk' value
+      echo("<br>");
+
+      
+      printf("[%'!-15.8s]",$str); // 11 character other 4 value is @ , !
+      echo("<br>");
+
+      
+
+
+      // character use %c 
+
+      $chr = 65;
+      printf('%c',$chr); // print ascci value ;
+      echo("<br>");
+
+      // binary use %b
+      $bin = 12;
+      printf('%b ',$bin);
+      echo("<br>");
+
+      // octal use %o
+      $octa= 10;
+      printf('%o',$octa);
+      echo("<br>");
+
+       // hexa use %h
+       $hexa= 11;
+       printf('%x',$hexa);
+       echo("<br>");
+
+      //  swapping use %2$d , %1$d . it also use %c,%f,%b etc
+
+      $test=12;
+      $test2 =14;
+
+      printf('test is : %d and test2 is : %d',$test,$test2); 
+      echo("<br>");
+
+         //swapping start
+      printf('test is : %2$d and test2 is : %d',$test,$test2); 
+      echo("<br>");
+
+      printf('test is : %2$d and test2 is : %1$d',$test,$test2);
+      echo("<br>");
+
+      // same value use multiple place use argument %1$d 
+
+      $digit =45;
+
+      printf('first is : %1$d and other one is : %1$d and other  is : %1$d',$digit);
+      echo("<br>");
