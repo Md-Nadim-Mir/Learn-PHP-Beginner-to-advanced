@@ -129,7 +129,7 @@
         echo "hello" , $status.("<br>") , $data.("<br>");
 
 
-# Topic : Var_dump use for variable type checking 
+## Topic : var_dump use for variable type checking 
 
         $teacher ='Nazmul';
         $roll = 5;
