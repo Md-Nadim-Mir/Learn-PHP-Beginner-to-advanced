@@ -19,8 +19,8 @@
         echo "<br>";
         echo nl2br("PHP variable and Syntax2 \n PHP variable and Syntax3 \n  PHP variable and Syntax4");
 
-        // echo "<br>";
-        // echo nl2br("You will find the \n newlines in this string \r\n on the browser window.");
+        echo "<br>";
+        echo nl2br("You will find the \n newlines in this string \r\n on the browser window.");
 
 
         echo "<br>";
@@ -159,6 +159,42 @@
 
 
 
+       ## Topic : PHP printf use 
+
+       $first_name='nadim';
+       $last_name='mir';
+
+       // ucwords() function use for word first letter convert uppercase 
+
+       echo("<br>");
+       echo ucwords("$first_name"),ucwords(" $last_name").("<br>");
+
+      //   printf use 
+        
+        printf('My first name is : %s and last name is : %s , Address : %s ',ucwords("$first_name"),ucwords("$last_name"),"Pirojpur");
+
+     
+        //block code 
+        
+        $html_block = "<div>
+                               <h1>First Name : ".ucwords($first_name)."</h1>
+                               <h2>Last Name : ".ucwords($last_name)."</h2>
+
+                      </div>";
+
+
+        echo $html_block.("<br>");       
+        
+        
+
+        $html_block2 = "<div>
+                               <h1>A: %s </h1>
+                               <h2>B: %s</h2>
+                      </div>";
+
+       printf($html_block2,(ucwords($first_name)),(ucwords($last_name))).("<br>");
+     
+     
     ?>
 </body>
 </html>
