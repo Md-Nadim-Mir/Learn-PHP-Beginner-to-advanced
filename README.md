@@ -274,3 +274,34 @@
 
       printf('first is : %1$d and other one is : %1$d and other  is : %1$d',$digit);
       echo("<br>");
+
+# Topic : Arithmetic operator [+,-,*,/,%,**]
+
+      $digit1= 9;
+      $digit2=2;
+
+      // + 
+      printf('added : %d',$digit1+$digit2);
+      echo("<br>");
+
+       // -
+       printf('sub : %d',$digit1-$digit2);
+       echo("<br>");
+
+       // *
+       printf('mul : %d',$digit1*$digit2);
+       echo("<br>");
+
+       // /
+       printf('div : %d',$digit1/$digit2);
+       echo("<br>");
+
+
+        // %
+        printf('baki : %d',$digit1%$digit2);
+        echo("<br>");
+
+       // **
+       printf('power : %d',$digit1**$digit2);
+       echo("<br>");
+      
