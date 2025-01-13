@@ -31,7 +31,7 @@
         $age =24;
         $name= "Mohammad Nadim Mir";
 
-## dynamic variable added into double quoute
+       // dynamic variable added into double quoute
         echo "My name is  $name , Age is  $age ";
 
         echo "<br>";
