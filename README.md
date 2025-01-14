@@ -933,5 +933,22 @@
          power();
 
          echo $a**$b;
+
+
+# Topic : PHP Static Variable
+
+         function orderCount(){
+            static $count =0;   # one time check for static keyword
+            $count++;
+
+            echo $count.('<br>');
+         }
+
+         orderCount();
+         orderCount();
+         orderCount();
+         orderCount();
+         orderCount();
+
        
  
