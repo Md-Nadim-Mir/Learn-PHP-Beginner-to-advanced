@@ -911,5 +911,27 @@
          summation();
          $result=$a+$b; # local variable can't use outside of block
          echo $result;
+
+
+ # Topic : PHP Global Variable
+
+         $a=12;
+
+         function power(){
+
+            global $a; # global variable access inside of block
+            global $b; # local variable access outside of block
+            $b=2;
+
+            $result = $a**$b;
+            echo $result;
+
+            global $b;
+
+         }
+
+         power();
+
+         echo $a**$b;
        
  
