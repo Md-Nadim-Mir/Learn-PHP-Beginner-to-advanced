@@ -879,5 +879,14 @@
          }
 
          print_address('dorgapur','dorgapur','pirojpur');
+
+
+# Topic : Default Argment
+
+         function mul($a,$b,$c=2){
+            echo $a*$b*$c;
+         }
+
+         mul(2,3);
        
  
