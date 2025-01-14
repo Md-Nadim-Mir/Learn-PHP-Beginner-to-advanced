@@ -602,7 +602,7 @@
      <br>
  <body>
 
-# simple way :  create year dropdown menue  
+# simple way :  create number dropdown menue  
 
      <form action="">
          number 
