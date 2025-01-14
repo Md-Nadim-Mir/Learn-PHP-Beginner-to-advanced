@@ -432,10 +432,21 @@
 
  # Topic : PHP spaceship operator [<=>]
 
-        # simulataneusly < =1,> =-1,= 0 return  both checking
+      # simulataneusly < =1,> =-1,= 0 return  both checking
 
       $p1=16;
       $p2=19;
 
       var_dump($p1<=>$p2);
       echo('<br>');
+
+ # Topic : PHP If Else
+     
+     $userName ='Nadim';
+
+     if($userName=='Nadim'){
+        echo('Login Successfully');
+     }
+     else {
+        echo ('Wrong Credintial');
+     }     
