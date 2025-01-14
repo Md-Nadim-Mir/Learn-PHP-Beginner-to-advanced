@@ -561,3 +561,13 @@
    else {
        echo('Invalid Users');
    }
+
+
+   # Topic : PHP while loop 
+
+      $year =2000;
+
+      while ($year<=2050){
+          echo('Year is : '.$year).('<br>');
+          $year++;
+      }
