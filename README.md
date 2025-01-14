@@ -950,5 +950,13 @@
          orderCount();
          orderCount();
 
+# Topic : 𝗣𝗛𝗣 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻 𝗥𝗲𝘁𝘂𝗿𝗻
+
+         function hospital(){
+            return 'Shere Bangla Hospital';
+         }
+
+         echo hospital();
+
        
  
