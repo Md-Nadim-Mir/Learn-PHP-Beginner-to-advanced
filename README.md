@@ -881,7 +881,7 @@
          print_address('dorgapur','dorgapur','pirojpur');
 
 
-# Topic : Default Argment
+# Topic : Default Argument
 
          function mul($a,$b,$c=2){
             echo $a*$b*$c;
