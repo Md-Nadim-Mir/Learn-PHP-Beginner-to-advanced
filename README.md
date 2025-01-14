@@ -667,9 +667,9 @@
       }
 
 
-# Topic : PHP Nested For Loop
+ # Topic : PHP Nested For Loop
 
-        for ($outerLoop=1;$outerLoop<5;$outerLoop++){
+           for ($outerLoop=1;$outerLoop<5;$outerLoop++){
                echo('<br>');
                echo('Outer Loop : '.$outerLoop).('<br>');
              
@@ -678,4 +678,5 @@
                 echo (' ---> Inner Loop : '.$innerLoop).('<br>');
                  
               }
-        }
+          }
+ 
