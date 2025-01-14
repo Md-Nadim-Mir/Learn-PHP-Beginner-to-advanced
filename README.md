@@ -766,5 +766,14 @@
          default:
         echo "Something went wrong";
       }
+
+
+ # Topic : Sprintf() use for prinf() vlaue other variable store
+
+       $a= 'Nadim ';
+       $b='Mir';
+
+       $c=sprintf('Full Name is : '.$a.' '.$b);
+       echo ('My ').$c;
        
  
