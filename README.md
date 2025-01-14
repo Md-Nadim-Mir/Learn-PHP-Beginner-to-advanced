@@ -679,4 +679,25 @@
                  
               }
           }
+
+
+# Topic : PHP Goto  Statement
+
+          for ($outerLoop=1;$outerLoop<5;$outerLoop++){
+             echo('<br>');
+             echo('Outer Loop : '.$outerLoop).('<br>');
+       
+             for($innerLoop=1;$innerLoop<6;$innerLoop++){
+           
+             echo (' ---> Inner Loop : '.$innerLoop).('<br>');
+             
+              if($outerLoop==3 && $innerLoop==4){
+                 goto show;
+              }
+            
+             }
+          }
+
+          show: 
+          echo 'program is end'
  
