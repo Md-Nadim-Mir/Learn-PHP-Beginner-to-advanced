@@ -475,3 +475,12 @@
      else {
         echo('Still now learning');
      }
+
+
+# Topic : PHP Ternary Operator
+
+     # [condition ? true statement : false statement];
+
+     $age = 18;
+
+     echo ($age > 17 ? 'adult':'child');
