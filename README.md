@@ -637,3 +637,7 @@
        for ($a=1;$a<=12;$a++){
           echo('Number is : '.$a).('<br>');
        }
+
+ for($a=1;$a<11;$a++){
+         echo("<li> Number is : $a </li>").('<br>');
+      }
