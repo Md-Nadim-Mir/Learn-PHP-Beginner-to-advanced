@@ -484,3 +484,23 @@
      $age = 18;
 
      echo ($age > 17 ? 'adult':'child');
+
+ # Topic : PHP And Operator [&&]
+
+   $a=22;
+   $b=19;
+   $c=13;
+
+    # find highest value 
+
+   if($a>$b && $a>$c){
+       echo ('a is big number and value is : '.$a);
+   }
+
+   else if($b>$a && $b>$c){
+      echo ('b is big number and value is : '.$b);
+   }
+
+   else {
+      echo ('c is big number and value is : '.$c);
+   }
