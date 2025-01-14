@@ -375,3 +375,56 @@
       $f1.=' '.$f2;
       echo($f1);
       echo('<br>');
+
+
+ # Topic : PHP comparison opearator 
+
+        # [>,<,>=,<=,==,!=,<>,===,!==,]
+
+        $op1= 25 ;
+        $op2 =30;
+        
+        # > greater than operator
+
+        var_dump ($op1>$op2);  // var_dump use for type show 
+        echo ('<br>');
+
+        # > greater than equal operator
+
+        var_dump ($op1>=$op2);  // var_dump use for type show 
+        echo ('<br>');
+
+        # < less  than operator
+
+        var_dump ($op1<$op2);  // var_dump use for type show 
+        echo ('<br>');
+
+
+        # <= less  than equal operator
+
+        var_dump ($op1<=$op2);  // var_dump use for type show 
+        echo ('<br>');
+
+
+       # == double equal operator
+
+       var_dump ($op1==$op2);  // var_dump use for type show 
+       echo ('<br>');
+
+       # != , <> double equal operator
+
+       var_dump ($op1!=$op2);  // var_dump use for type show 
+       echo ('<br>');
+
+       var_dump ($op1<>$op2);  // var_dump use for type show 
+       echo ('<br>');
+
+       # === triple equal operator
+
+       var_dump ($op1===$op2);  // var_dump use for type show 
+       echo ('<br>');
+
+       # !== triple equal operator
+
+       var_dump ($op1!==$op2);  // var_dump use for type show 
+       echo ('<br>');
