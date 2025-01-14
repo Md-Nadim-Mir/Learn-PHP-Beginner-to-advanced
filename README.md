@@ -789,5 +789,21 @@
          endif;      
 
        ?>
+
+
+ # Else if 
+
+      <?php $a=9 ?>;
+
+      <?php if($a==8): ?>
+         <h1>Hello</h1>
+      <?php elseif($a==6): ?>
+         <h1>Hello1</h1>
+      <?php elseif($a==9): ?>
+         <h1>Hello9</h1>
+      <?php else: ?>
+         <h1>Bye</h1>         
+      
+      <?php endif; ?>      
        
  
