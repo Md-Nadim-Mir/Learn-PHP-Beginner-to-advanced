@@ -1014,5 +1014,13 @@
 
          echo $name;
 
+
+# Topic : PHP Arrays
+
+         $combine= array('car','bike','cycle','truck','van');
+
+         echo $combine[4];
+
+
        
  
