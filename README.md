@@ -504,3 +504,25 @@
     else {
        echo ('c is big number and value is : '.$c);
     }
+
+
+
+# Topic : PHP And Operator [||]
+
+   $a=22;
+   $b=19;
+   $c=13;
+
+    # find lowest value 
+
+   if($a<$b || $a<$c){
+       echo ('a is small number and value is : '.$a);
+   }
+
+   else if($b<$a || $b<$c){
+      echo ('b is small number and value is : '.$b);
+   }
+
+   else {
+      echo ('c is small number and value is : '.$c);
+   }
