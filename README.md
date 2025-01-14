@@ -805,5 +805,22 @@
           <h1>Bye</h1>         
       
         <?php endif; ?>      
+
+
+# For switch :
+      
+         switch(3):
+            case 1:
+               echo 'e';
+               break;
+            case 2: 
+               echo 'd';
+               break;
+            case 3:
+               echo 'f';
+               break;
+            default :
+               echo 'b';
+            endswitch;
        
  
