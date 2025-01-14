@@ -665,3 +665,17 @@
           echo('Welcome ').$c.('<br>');
           
       }
+
+
+# Topic : PHP Nested For Loop
+
+        for ($outerLoop=1;$outerLoop<5;$outerLoop++){
+               echo('<br>');
+               echo('Outer Loop : '.$outerLoop).('<br>');
+             
+              for($innerLoop=1;$innerLoop<3;$innerLoop++){
+                 
+                echo (' ---> Inner Loop : '.$innerLoop).('<br>');
+                 
+              }
+        }
