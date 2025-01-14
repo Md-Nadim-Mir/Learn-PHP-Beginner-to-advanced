@@ -985,5 +985,17 @@
 
          echo good(8,9.6);
 
+
+# Topic : PHP Nullable Types Null
+
+         function hi(?string $a) : ?string{
+            
+             return $a;
+         }
+         
+         $input = 'nadim';
+
+         echo hi($input) 
+
        
  
