@@ -629,3 +629,11 @@
         }
 
         while($i<5);
+
+# For Loop 
+        
+       $a= 1;
+
+       for ($a=1;$a<=12;$a++){
+          echo('Number is : '.$a).('<br>');
+       }
