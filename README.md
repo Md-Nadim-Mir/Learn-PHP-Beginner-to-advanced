@@ -897,5 +897,19 @@
          }
 
          fullName(last_name:'Mir',first_name:'Md.',middle_name:'Nadim');
+
+
+# Topic : PHP Local Variable Scopes
+
+         function summation(){
+             $a=3; # local variable
+             $b=2; # local variable
+             $result=$a+$b;
+             echo $result;
+         }
+
+         summation();
+         $result=$a+$b; # local variable can't use outside of block
+         echo $result;
        
  
