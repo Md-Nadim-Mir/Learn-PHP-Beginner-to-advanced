@@ -604,7 +604,6 @@
 
 # simple way :  create year dropdown menue  
 
-   <body>
      <form action="">
          number 
            <select name="" id="">
@@ -618,4 +617,3 @@
            </select>
 
      </form>
-  </body>
