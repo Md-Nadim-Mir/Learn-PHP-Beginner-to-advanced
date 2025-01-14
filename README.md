@@ -822,5 +822,12 @@
             default :
                echo 'b';
             endswitch;
+
+
+# For loop
+
+          <?php for($i=1;$i<5;$i++):?>
+            <h1>Hello : <?php echo $i ?></h1>
+          <?php endfor; ?> 
        
  
