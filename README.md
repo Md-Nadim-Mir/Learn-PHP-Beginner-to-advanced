@@ -888,5 +888,14 @@
          }
 
          mul(2,3);
+
+
+# Topic : PHP Named Arguments
+
+         function fullName($first_name,$last_name,$middle_name){
+             echo("$first_name $middle_name $last_name");
+         }
+
+         fullName(last_name:'Mir',first_name:'Md.',middle_name:'Nadim');
        
  
