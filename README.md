@@ -859,5 +859,14 @@
 
            $value = $value ?? 'Munmun';
            echo $value;
+
+
+# Topic : PHP Function Parameter and Argument
+
+         function print_address($vill,$union,$district){
+             echo ("Village: $vill , Union: $union , District: $district");
+         }
+
+         print_address('dorgapur','dorgapur','pirojpur');
        
  
