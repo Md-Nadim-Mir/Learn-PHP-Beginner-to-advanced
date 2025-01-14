@@ -829,5 +829,24 @@
           <?php for($i=1;$i<5;$i++):?>
             <h1>Hello : <?php echo $i ?></h1>
           <?php endfor; ?> 
+
+
+# Topic : PHP isset Function 
+
+         $a=5;
+
+           if(isset($a)){
+              $result = $a+5;
+              echo $result;
+           }
+
+         
+         $my_name ='raj';
+         
+          if(!isset($my_name)){
+               $my_name='sheikh'  ;
+          }
+
+          echo $my_name;
        
  
