@@ -775,5 +775,19 @@
 
        $c=sprintf('Full Name is : '.$a.' '.$b);
        echo ('My ').$c;
+
+# Topic : PHP Alternative Control Structure Syntax 
+
+## For If else 
+
+       <?php
+
+         if(true):
+            echo('hello nadim');
+         else :
+            echo('hello santi');
+         endif;      
+
+       ?>
        
  
