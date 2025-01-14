@@ -359,4 +359,19 @@
       echo("<br>");
       printf($m);   // k=14
       echo("<br>");
-      
+
+ # Topic : PHP concatination 
+
+      // Nadim Adnan
+      $f1='nadim';
+      $f2='adnan';
+
+      printf('%s %s',$f1,$f2);
+      echo('<br>');
+
+      echo 'Md. '. $f1.' '.$f2;
+      echo('<br>');
+
+      $f1.=' '.$f2;
+      echo($f1);
+      echo('<br>');
