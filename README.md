@@ -638,6 +638,6 @@
           echo('Number is : '.$a).('<br>');
        }
 
- for($a=1;$a<11;$a++){
+       for($a=1;$a<11;$a++){
          echo("<li> Number is : $a </li>").('<br>');
       }
