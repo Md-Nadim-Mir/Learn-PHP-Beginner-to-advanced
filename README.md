@@ -449,4 +449,29 @@
      }
      else {
         echo ('Wrong Credintial');
-     }     
+     }    
+
+
+# Topic : PHP Else If 
+
+      $learn = 'javaScript';
+
+      if($learn=='c++'){
+          echo('you are become a c++ developer');
+      }
+
+      else if($learn=='java'){
+         echo('you are become a java developer');
+     }
+
+     else if($learn=='laravel'){
+      echo('you are become a laravel developer');
+     }
+
+     else if($learn=='javaScript'){
+      echo('you are become a javaScript developer');
+     }
+
+     else {
+        echo('Still now learning');
+     }
