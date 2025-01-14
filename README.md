@@ -542,3 +542,22 @@
      else {
            echo('valid users');
      }
+
+
+# PHP Nested If
+
+   $userName = 'nadim';
+   $password ='@nadim123';
+
+   if($userName=='nadim'){
+       if($password=='@nadim123'){
+          echo('Users Login Successfully');
+       }
+       else {
+          echo('Invalid Users');
+       }
+   }
+
+   else {
+       echo('Invalid Users');
+   }
