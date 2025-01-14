@@ -868,5 +868,16 @@
          }
 
          print_address('dorgapur','dorgapur','pirojpur');
+
+
+# Topic : Declare stric for 100% correct [must start of php code]
+
+         declare(strict_types=1); 
+         
+         function print_address($vill,$union,$district){
+             echo ("Village: $vill , Union: $union , District: $district");
+         }
+
+         print_address('dorgapur','dorgapur','pirojpur');
        
  
