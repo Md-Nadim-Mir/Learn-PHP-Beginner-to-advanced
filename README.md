@@ -507,14 +507,14 @@
 
 
 
-# Topic : PHP And Operator [||]
+  # Topic : PHP And Operator [||]
 
    $a=22;
    $b=19;
    $c=13;
 
-    # find lowest value 
-
+   #find lowest value 
+   
    if($a<$b || $a<$c){
        echo ('a is small number and value is : '.$a);
    }
@@ -526,3 +526,19 @@
    else {
       echo ('c is small number and value is : '.$c);
    }
+
+
+   # Topic : PHP Not Operator [!]
+
+     $userName ='n4';
+
+     $length = strlen($userName);
+
+     if( !($length>=3) && ($length<=7)) {
+
+         echo('invalid users');
+     }
+
+     else {
+           echo('valid users');
+     }
