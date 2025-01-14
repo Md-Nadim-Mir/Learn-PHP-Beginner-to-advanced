@@ -972,5 +972,18 @@
 
          echo math(3,4)
 
+
+ # Topic : PHP Mixed Type 
+
+         // int|float|string|bool|array|object|null - mixed;
+
+         function good(mixed $a , mixed $b):mixed{
+
+              return $a * $b;
+                
+         }
+
+         echo good(8,9.6);
+
        
  
