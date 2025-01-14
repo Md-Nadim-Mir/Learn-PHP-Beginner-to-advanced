@@ -507,25 +507,25 @@
 
 
 
-  # Topic : PHP And Operator [||]
+# Topic : PHP And Operator [||]
 
-   $a=22;
-   $b=19;
-   $c=13;
+    $a=22;
+    $b=19;
+    $c=13;
 
-   #find lowest value 
+    #find lowest value 
    
-   if($a<$b || $a<$c){
+    if($a<$b || $a<$c){
        echo ('a is small number and value is : '.$a);
-   }
+    }
 
-   else if($b<$a || $b<$c){
+    else if($b<$a || $b<$c){
       echo ('b is small number and value is : '.$b);
-   }
+    }
 
-   else {
+    else {
       echo ('c is small number and value is : '.$c);
-   }
+    }
 
 
    # Topic : PHP Not Operator [!]
@@ -544,19 +544,19 @@
      }
 
 
-# PHP Nested If
+  # PHP Nested If
 
-   $userName = 'nadim';
-   $password ='@nadim123';
+    $userName = 'nadim';
+    $password ='@nadim123';
 
-   if($userName=='nadim'){
+    if($userName=='nadim'){
        if($password=='@nadim123'){
           echo('Users Login Successfully');
        }
        else {
           echo('Invalid Users');
        }
-   }
+    }
 
    else {
        echo('Invalid Users');
