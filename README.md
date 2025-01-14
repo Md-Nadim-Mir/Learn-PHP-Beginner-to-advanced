@@ -848,5 +848,16 @@
           }
 
           echo $my_name;
+
+
+# Topic : PHP Null Coalescing Operator alter for Ternary Operator 
+
+           $value = 'Nobin';
+
+           $value = isset($value)?$value:'Nadim';
+           echo $value;
+
+           $value = $value ?? 'Munmun';
+           echo $value;
        
  
