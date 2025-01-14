@@ -958,5 +958,19 @@
 
          echo hospital();
 
+
+# Topic : PHP Union Type |  Type Hinting in Function
+
+         declare(strict_types=1);
+
+         function math(int|float|string $a , int|float|string  $b) : int|float|string {
+
+             return $a + $b;
+             
+         }
+
+
+         echo math(3,4)
+
        
  
