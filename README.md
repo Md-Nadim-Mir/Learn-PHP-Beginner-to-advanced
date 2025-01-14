@@ -997,5 +997,22 @@
 
          echo hi($input) 
 
+
+ 
+ # Topic :  PHP Call By Value And Call By Reference
+
+         function getMyname(string &$a){
+         
+             $a='na';
+             echo $a.('<br>');
+            
+         }
+
+         $name='nadim';
+
+         getMyname($name);
+
+         echo $name;
+
        
  
