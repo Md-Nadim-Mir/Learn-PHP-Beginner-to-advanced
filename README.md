@@ -641,3 +641,13 @@
        for($a=1;$a<11;$a++){
          echo("<li> Number is : $a </li>").('<br>');
       }
+
+# PHP Break Statement
+
+      for($b=1;$b<8;$b++){
+          echo('value is :'.$b).('<br>');
+
+          if($b==5){
+             break;
+          }
+      }
