@@ -744,5 +744,27 @@
              echo "Your favorite color is neither red, blue, nor green!";
           
          } 
+
+
+
+# Multiple case block 
+
+         $d = 3;
+
+        switch ($d) {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:  
+          echo "The weeks feels so long!";
+          break;
+        case 6:
+        case 0:
+           echo "Weekends are the best!";
+           break;
+         default:
+        echo "Something went wrong";
+      }
        
  
