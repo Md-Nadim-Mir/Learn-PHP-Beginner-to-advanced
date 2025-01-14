@@ -487,20 +487,20 @@
 
  # Topic : PHP And Operator [&&]
 
-   $a=22;
-   $b=19;
-   $c=13;
+    $a=22;
+    $b=19;
+    $c=13;
 
     # find highest value 
-
-   if($a>$b && $a>$c){
+    
+    if($a>$b && $a>$c){
        echo ('a is big number and value is : '.$a);
-   }
+    }
 
-   else if($b>$a && $b>$c){
+    else if($b>$a && $b>$c){
        echo ('b is big number and value is : '.$b);
-   }
+    }
 
-   else {
+    else {
        echo ('c is big number and value is : '.$c);
-   }
+    }
