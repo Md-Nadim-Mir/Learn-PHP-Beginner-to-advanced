@@ -1022,5 +1022,18 @@
          echo $combine[4];
 
 
+# Topic : PHP Array Printing: Print_r & Var_dump
+
+         $combine= array('car','1','true','bike','4.5','null','cycle','truck','van');
+
+         echo "<pre>";
+             var_dump($combine);
+         echo "</pre>";
+
+         echo "<pre>";
+             print_r($combine);
+         echo "</pre>";
+
+
        
  
