@@ -651,3 +651,17 @@
              break;
           }
       }
+
+ 
+ # PHP Continue Statement
+
+      for($c=1;$c<8;$c++){
+          echo('<br>');
+          echo('Hello  world ').$c.('<br>');
+
+          if($c==3){
+             continue;
+          }
+          echo('Welcome ').$c.('<br>');
+          
+      }
