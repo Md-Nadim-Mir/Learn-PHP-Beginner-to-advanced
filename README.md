@@ -571,3 +571,51 @@
           echo('Year is : '.$year).('<br>');
           $year++;
       }
+
+
+  <body>
+
+# create year dropdown menue
+
+   <body>
+           
+     <form action="#">
+
+           Year
+              <select name="" id="">
+                 <?php
+
+                 $year=2000;
+
+                 while($year<2024){ 
+               ?>
+           
+           <option value="<?php $year ?>" id=""><?php echo $year ?></option>
+          
+          <?php
+           $year++;
+           }
+           ?>
+           </select>
+
+     </form>
+     <br>
+ <body>
+
+# simple way :  create year dropdown menue  
+
+   <body>
+     <form action="">
+         number 
+           <select name="" id="">
+              <?php
+                    $number =1;
+                    while ($number<=10){
+                       echo "<option value='$number'>$number</option>";
+                       $number++;
+                    }
+              ?>  
+           </select>
+
+     </form>
+  </body>
