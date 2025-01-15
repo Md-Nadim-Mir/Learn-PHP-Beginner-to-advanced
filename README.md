@@ -1085,6 +1085,24 @@
             }
 
 
+# PHP Foreach Loop
+
+
+         $name =array('nadim','santi','mysa','adnan');
+
+         foreach ($name as $s){
+            echo $s.('<br>');
+         }
+
+         $market =array('shirt'=>2,'pant'=>5,'payjama'=>5);
+
+         echo ('<br>');
+         foreach($market as $key => $value){
+           
+            echo "$key : $value".('<br>');
+         }
+
+
          
 
 
