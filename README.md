@@ -1034,6 +1034,29 @@
              print_r($combine);
          echo "</pre>";
 
+ # Topic : PHP Array Manipulation
+
+         $student =array('nadim','jency','jannat','nisi','niloy','sumon','sorno');
+
+         
+         $student[]='sadia'; # last index value added
+
+         pr($student);
+
+         unset($student[2]);  # delete 2 no index
+   
+         pr($student);
+
+         unset($student);  # full array delete
+         pr($student);
+
+         function pr($student){
+            echo '<pre>';
+            print_r($student);
+            echo '</pre>';
+         }
+
+
 
        
  
