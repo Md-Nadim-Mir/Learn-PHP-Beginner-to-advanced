@@ -1059,6 +1059,32 @@
             echo '</pre>';
          }
 
+
+ # Topic :  PHP Associative Array
+
+         $test_arr= [20,'nadim',true];
+         pr($test_arr);
+
+         $test_arr=[0 => 25 , 1 => 'Nadim' , 2 => true ];
+         pr($test_arr);
+
+         $test_arr = [ 'amount' => 25 , 'name' => 'nadim' , 'login'=>true];
+         pr($test_arr);
+
+         $test_arr['order']=5;
+         pr($test_arr);
+
+         unset($test_arr['name']);
+         pr($test_arr);
+          
+
+         function pr($test_arr){
+               echo '<pre>';
+               print_r($test_arr);
+               echo '</pre>';
+            }
+
+
          
 
 
