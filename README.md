@@ -1047,14 +1047,19 @@
    
          pr($student);
 
-         unset($student);  # full array delete
-         pr($student);
+         $countArray=count($student);   # count of array element
+         echo 'Total element : '.$countArray;
+
+         // unset($student);  # full array delete
+         // pr($student);
 
          function pr($student){
             echo '<pre>';
             print_r($student);
             echo '</pre>';
          }
+
+         
 
 
 
