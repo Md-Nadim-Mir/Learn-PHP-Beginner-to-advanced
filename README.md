@@ -1103,6 +1103,59 @@
          }
 
 
+# Topic : PHP Multidimensional Arrays 
+
+         $students_list = [
+                        
+                         ['nadim','nobin','munmun'],
+                         ['rabbi','santi','obaidul'],
+                         ['asad','sifat','khadiza'],
+                         
+
+                       ];
+
+          
+          $student_detils = [
+
+                                [
+                                  'name'=>'nadim',
+                                  'roll'=>'a5',
+                                  'fee'=> 2400,
+                                  'courses' => ['Math', 'Science']
+                                ],
+
+                                [
+                                 'name'=>'santi',
+                                 'roll'=>'a9',
+                                 'fee'=> 2900,
+                                 'courses' => ['Bangla', 'Arts']
+                                ],
+
+                                [
+                                 'name'=>'arabbi',
+                                 'roll'=>'b9',
+                                 'fee'=> 2600,
+                                 'courses' => ['Accounting', 'Commmerce']
+                                ],
+                              
+                           ]    ;      
+                           
+
+                         
+
+                  foreach($student_detils as $single_student){
+                      echo ('<br>');
+
+                      echo "Name: $single_student[name]";
+                      echo " Roll: $single_student[roll]";
+                      echo " Fee: $single_student[fee]";
+                      echo " Courses: ".implode(", ",  $single_student['courses']);
+
+                      echo ('<br>');
+                  }         
+
+
+
          
 
 
